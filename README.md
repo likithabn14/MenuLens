@@ -1,4 +1,4 @@
-# 🍽️ MenuLens
+#MenuLens
 
 ### See the real dish before you order.
 
@@ -6,7 +6,7 @@ MenuLens is a community-powered food discovery and review platform designed to h
 
 Whether someone wants to find a pizza, burger, biryani, dosa, pasta, dessert, coffee, or any other menu item, MenuLens aims to make it easier to compare dishes, explore customer experiences, and discover hidden food gems.
 
-## 📌 Project Overview
+## Project Overview
 
 Traditional restaurant review platforms primarily focus on overall restaurant ratings. However, the quality of individual dishes can vary significantly within the same restaurant.
 
@@ -16,7 +16,7 @@ Users can explore food items, compare dishes across restaurants, review their di
 
 The application is being developed using Python and Streamlit, with SQLite for data storage and Plotly for interactive visualizations.
 
-## ✨ Planned Features
+##  Planned Features
 
 The following features represent the project scope. Features should be marked as implemented only after they have been completed and tested.
 
@@ -35,7 +35,7 @@ The following features represent the project scope. Features should be marked as
 * **User Profiles:** View review activity, uploaded photographs, and achievements.
 * **Responsive Dark Theme:** Use a modern interface with black backgrounds and orange accents.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component                          | Technology      |
 | ---------------------------------- | --------------- |
@@ -49,7 +49,7 @@ The following features represent the project scope. Features should be marked as
 | Sample data generation             | Faker           |
 | Date utilities                     | Python Dateutil |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 MenuLens/
@@ -78,7 +78,7 @@ MenuLens/
 * `uploads/` — Locally stored user-uploaded images.
 * `requirements.txt` — Python dependencies.
 
-## 💻 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -126,7 +126,7 @@ streamlit run app.py
 
 Streamlit will provide a local address where the application can be opened in your browser.
 
-## ☁️ Deployment on Streamlit Community Cloud
+##  Deployment on Streamlit Community Cloud
 
 1. Upload the completed project to a GitHub repository.
 2. Sign in to Streamlit Community Cloud.
@@ -139,27 +139,13 @@ Streamlit will provide a local address where the application can be opened in yo
 
 **Deployment note:** A local SQLite database and local image directory should not be assumed to provide permanent storage on a hosted platform. Configure an appropriate persistent database and image-storage solution if user-generated content must survive application restarts and deployments.
 
-## 📊 Screenshots
-
-Add screenshots here after implementing and running the application.
-
-Suggested screenshots:
-
-* Home page and trending dishes
-* Dynamic food search
-* Dish details and customer reviews
-* Restaurant profile
-* Add review form
-* Hidden Gems page
-* Interactive analytics dashboard
-
-## 🔒 Data and Privacy
+##  Data and Privacy
 
 MenuLens may store user-submitted reviews, ratings, and photographs.
 
 A production deployment should validate uploaded files, restrict upload sizes, handle user content responsibly, protect any authentication credentials, and implement appropriate privacy and moderation controls.
 
-## 🚀 Future Scope
+##  Future Scope
 
 Potential improvements include:
 
@@ -175,5 +161,5 @@ Potential improvements include:
 * Personalized recommendations based on preferences
 
 
-## 👩‍💻 Author
+##  Author
 LIKITHA BN
