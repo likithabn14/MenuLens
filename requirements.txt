@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+plotly
+Pillow
+streamlit-option-menu
+streamlit-extras
+faker
+python-dateutil
